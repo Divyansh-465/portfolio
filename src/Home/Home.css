@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+.profile {
+    padding: 200px 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+span {
+    width: 50%;
+    font-family: 'Kanit', sens-serif;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    margin: 5px 70px;
+    text-shadow: 1px 1px black;
+    word-spacing: 15px;
+    letter-spacing: 2px;
+    color: white;
+}
+
+@media (max-width:738px) {
+    .profile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 25px 0px;
+        font-size: 0.8rem;
+    }
+
+    span {
+        margin: 5px 0px;
+        font-size: 1rem;
+        justify-content: center;
+    }
+}
+

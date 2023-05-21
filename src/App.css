@@ -1,0 +1,40 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.body {
+  width: 100%;
+  height: 350vh;
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
+
+@media (min-width:738px) {
+  body {
+    background: url("https://media.istockphoto.com/id/1162940275/photo/abstract-gradient-dark-purple-background-gradient-dark-purple-color-with-black-vignette-using.jpg?b=1&s=170667a&w=0&k=20&c=hd1kP3f83gM4CArQmOJ9HLRa8foFZRgAumYupDXXJO4=");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+}
+
+@media (max-width:738px) and (min-width:525px) {
+  body {
+    background: url("https://media.istockphoto.com/id/1162940275/photo/abstract-gradient-dark-purple-background-gradient-dark-purple-color-with-black-vignette-using.jpg?b=1&s=170667a&w=0&k=20&c=hd1kP3f83gM4CArQmOJ9HLRa8foFZRgAumYupDXXJO4=");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+}
+
+@media (max-width:525px) {
+  body {
+    background: url("https://media.istockphoto.com/id/1162940275/photo/abstract-gradient-dark-purple-background-gradient-dark-purple-color-with-black-vignette-using.jpg?b=1&s=170667a&w=0&k=20&c=hd1kP3f83gM4CArQmOJ9HLRa8foFZRgAumYupDXXJO4=");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+}
